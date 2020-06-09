@@ -1,0 +1,17 @@
+{
+    "name": "alessandro1105/testproject",
+    "description": "Test project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alessandro Pasqualini",
+            "email": "alessandro.pasqualini.1105@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "post-create-project-cmd": [
+            "php rename.php"
+        ]
+    }
+}
